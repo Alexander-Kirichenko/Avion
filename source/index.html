@@ -1,3 +1,439 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avion</title>
+</head>
+
+<body class="main-page">
+    <header class="main-page__header header">
+        <!--Если нам создать контейнер для поиска и кнопку, на которую повесим иконку, а дальше, при помощи
+        focus-within, будем показывать строку поиска?
+        -->
+        <div class="header__search-container">
+            <button class="header__search-button" type="button">
+                <span class="visually-hidden">
+                    Поиск по сайту.
+                </span>
+            </button>
+            <form class="header__search search-form" action="https://echo.htmlacademy.ru/" method="get">
+                <input class="search-form__control input" type="text" aria-label="Поле поиска."
+                    placeholder="Поиск по сайту" required>
+                <button class="search-form__button button" type="submit">
+                    Найти
+                </button>
+            </form>
+        </div>
+        <a class="header__logo logo" href="#" aria-label="Ссылка на главную страницу сайта.">
+            Avion
+        </a>
+        <ul class="header__user-interface user-interface">
+            <li class="user-interface__item">
+                <a class="user-interface__link link user-interface__link--cart" href="#" aria-label="Корзина."></a>
+            </li>
+            <li class="user-interface__item">
+                <a class="user-interface__link link user-interface__link--personal-account" href="#"
+                    aria-label="Личный кабинет."></a>
+            </li>
+        </ul>
+        <nav class="header__categories categories">
+            <ul class="categories__list">
+                <li class="categories__item">
+                    <a class="categories__link link" href="#">
+                        Plant pots
+                    </a>
+                </li>
+                <li class="categories__item">
+                    <a class="categories__link link" href="#">
+                        Ceramics
+                    </a>
+                </li>
+                <li class="categories__item">
+                    <a class="categories__link link" href="#">
+                        Tables
+                    </a>
+                </li>
+                <li class="categories__item">
+                    <a class="categories__link link" href="#">
+                        Chairs
+                    </a>
+                </li>
+                <li class="categories__item">
+                    <a class="categories__link link" href="#">
+                        Crockery
+                    </a>
+                </li>
+                <li class="categories__item">
+                    <a class="categories__link link" href="#">
+                        Tableware
+                    </a>
+                </li>
+                <li class="categories__item">
+                    <a class="categories__link link" href="#">
+                        Cutlery
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-page__index index">
+        <h1 class="visually-hidden">
+            Интернет-магазин мебели Avion.
+        </h1>
+        <section class="index__hero hero-block">
+            <h2 class="hero-block__title">
+                The furniture brand for the future, with timeless designs
+            </h2>
+            <a class="hero-block__link button" href="#">
+                View collection
+            </a>
+            <p class="hero-block__content">
+                A new era in eco friendly furniture with Avelon, the French luxury retail brand
+                with nice fonts, tasteful colors and a beautiful way to display things digitally
+                using modern web technologies.
+            </p>
+            <img class="hero-block__image image" src="img/content/hero__image--chair.png" width="520" height="584"
+                alt="Изображение стула.">
+        </section>
+        <section class="index__features features">
+            <h2 class="features__title">
+                What makes our brand different
+            </h2>
+            <ul class="features__list">
+                <li class="features__item features__item--delivery">
+                    <h3 class="features__title">
+                        Next day as standard
+                    </h3>
+                    <p>
+                        Order before 3pm and get your order
+                        the next day as standard
+                    </p>
+                </li>
+                <li class="features__item features__item--quality">
+                    <h3 class="features__title">
+                        Made by true artisans
+                    </h3>
+                    <p>
+                        Handmade crafted goods made with
+                        real passion and craftmanship
+                    </p>
+                </li>
+                <li class="features__item features__item--price">
+                    <h3 class="features__title">
+                        Unbeatable prices
+                    </h3>
+                    <p>
+                        For our materials and quality you won’t find better prices anywhere
+                    </p>
+                </li>
+                <li class="features__item features__item--eco">
+                    <h3 class="features__title">
+                        Recycled packaging
+                    </h3>
+                    <p>
+                        We use 100% recycled packaging to ensure our footprint is manageable
+                    </p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="index__listing listing">
+            <h2 class="listing__title">
+                New ceramics
+            </h2>
+            <ul class="listing__list">
+                <li class="listing__item product-card">
+                    <img class="product-card__image" src="img/content/the_dandy_chair.png" alt="Изображение стула."
+                        width="305" height="375">
+                    <h3 class="product-card__name">
+                        The Dandy chair
+                    </h3>
+                    <span class="product-card__price">
+                        £250
+                    </span>
+                </li>
+                <li class="listing__item product-card">
+                    <img class="product-card__image" src="img/content/vase_set.png" alt="Изображение набора ваз."
+                        width="305" height="375">
+                    <h3 class="product-card__name">
+                        Rustic Vase Set
+                    </h3>
+                    <span class="product-card__price">
+                        £155
+                    </span>
+                </li>
+                <li class="listing__item product-card">
+                    <img class="product-card__image" src="img/content/silky_vase.png" alt="Изображение вазы."
+                        width="305" height="375">
+                    <h3 class="product-card__name">
+                        The Silky Vase
+                    </h3>
+                    <span class="product-card__price">
+                        £125
+                    </span>
+                </li>
+                <li class="listing__item product-card">
+                    <img class="product-card__image" src="img/content/lucy_lamp.png" alt="Изображение лампы."
+                        width="305" height="375">
+                    <h3 class="product-card__name">
+                        The Lucy Lamp
+                    </h3>
+                    <span class="product-card__price">
+                        £399
+                    </span>
+                </li>
+            </ul>
+            <a class="listing__button button" href="#">
+                View collection
+            </a>
+        </section>
+        <section class="index__listing listing">
+            <h2 class="listing__title">
+                Our popular products
+            </h2>
+            <ul class="listing__list">
+                <li class="listing__item product-card product-card--large">
+                    <img class="product-card__image" src="img/content/sofa.png" alt="Изображение дивана.">
+                    <h3 class="product-card__name">
+                        The Poplar suede sofa
+                    </h3>
+                    <span class="product-card__price">
+                        £980
+                    </span>
+                </li>
+                <li class="listing__item product-card">
+                    <img class="product-card__image" src="img/content/the_dandy_chair.png" alt="Изображение стула.">
+                    <h3 class="product-card__name">
+                        The Dandy chair
+                    </h3>
+                    <span class="product-card__price">
+                        £250
+                    </span>
+                </li>
+                <li class="listing__item product-card">
+                    <img class="product-card__image" src="img/content/the_dandy_chair_v2.png"
+                        alt="Изображение стула в другом исполнении.">
+                    <h3 class="product-card__name">
+                        The Dandy chair
+                    </h3>
+                    <span class="product-card__price">
+                        £250
+                    </span>
+                </li>
+            </ul>
+            <a class="listing__button button" href="#">
+                View collection
+            </a>
+        </section>
+        <section class="index__sing-up section-sign-up">
+            <h2 class="section-sign-up__title">
+                Join the club and get the benefits
+            </h2>
+            <p class="section-sign-up__text">
+                Sign up for our newsletter and receive exclusive offers on new ranges, sales, pop up stores and more
+            </p>
+            <form class="section-sign-up__form sign-up-form" action="https://echo.htmlacademy.ru/" method="post">
+                <input class="sign-up-form__control input" type="text" placeholder="your@email.com" required
+                    aria-label="Поле для воода почты.">
+                <button class="sign-up-form__button button" type="submit">
+                    Sign up
+                </button>
+            </form>
+        </section>
+        <section class="index__hero hero-block">
+            <h2 class="hero-block__title">
+                From a studio in London to a global brand with
+                over 400 outlets
+            </h2>
+            <p class="hero-block__content">
+                When we started Avion, the idea was simple. Make high quality furniture affordable and available for the
+                mass market.
+                Handmade, and lovingly crafted furniture and homeware is what we live, breathe and design
+                so our Chelsea boutique become the hotbed for the London interior design community.
+            </p>
+            <a class="hero-block__link button" href="#">
+                Get in touch
+            </a>
+            <img class="hero-block__image image" src="img/content/hero__image--furniture.png" width="720" height="603"
+                alt="Изображение фурнитуры.">
+        </section>
+    </main>
+    <footer class="main-page__footer footer">
+        <nav class="footer__nav navigation">
+            <section class="navigation__menu menu">
+                <h2 class="navigation__title">
+                    Menu
+                </h2>
+                <ul class="navigation__list">
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#">
+                            New arrivals
+                        </a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#">
+                            Best sellers
+                        </a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#">
+                            Recently viewed
+                        </a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#">
+                            Popular this week
+                        </a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#">
+                            All products
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <section class="navigation__categories categories">
+                <h2 class="navigation__title">
+                    Categories
+                </h2>
+                <ul class="navigation__list">
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#">
+                            Crockery
+                        </a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#">
+                            Furniture
+                        </a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#">
+                            Homeware
+                        </a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#">
+                            Plant pots
+                        </a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#">
+                            Chairs
+                        </a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#">
+                            Crockery
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <section class="navigation__our-company our-company">
+                <h2 class="navigation__title">
+                    Our company
+                </h2>
+                <ul class="navigation__list">
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#">
+                            About us
+                        </a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#">
+                            Vacancies
+                        </a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#">
+                            Contact us
+                        </a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#">
+                            Privacy
+                        </a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#">
+                            Returns policy
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </nav>
+        <section class="footer__sign-up section-sign-up">
+            <h2 class="section-sign-up__title">
+                Join our mailing list
+            </h2>
+            <form class="section-sign-up__form sign-up-form" action="https://echo.htmlacademy.ru/" method="post">
+                <input class="sign-up-form__control input" type="text" placeholder="your@email.com" required
+                    aria-label="Поле для воода почты.">
+                <button class="sign-up-form__button button" type="submit">
+                    Sign up
+                </button>
+            </form>
+        </section>
+        <p class="footer__copyright">
+            Copyright 2022 Avion LTD
+        </p>
+        <section class="footer__socials socials">
+            <h2 class="visually-hidden">
+                Социальные сети магазина Avion.
+            </h2>
+            <ul class="socials__list">
+                <li class="socials__item">
+                    <a class="link link--linkedin" href="#">
+                      <span class="visually-hidden">
+                        Avion в LinkedIn
+                      </span>
+                    </a>
+                </li>
+                <li class="socials__item">
+                    <a class="link link--facebook" href="#">
+                      <span class="visually-hidden">
+                        Avion в facebook
+                      </span>
+                    </a>
+                </li>
+                <li class="socials__item">
+                    <a class="link link--instagram" href="#">
+                      <span class="visually-hidden">
+                        Avion в instagram
+                      </span>
+                    </a>
+                </li>
+                <li class="socials__item">
+                    <a class="link link--skype" href="#">
+                      <span class="visually-hidden">
+                        Avion в skype
+                      </span>
+                    </a>
+                </li>
+                <li class="socials__item">
+                    <a class="link link--twitter" href="#">
+                      <span class="visually-hidden">
+                        Avion в twitter
+                      </span>
+                    </a>
+                </li>
+                <li class="socials__item">
+                    <a class="link link--pinterest" href="#">
+                      <span class="visually-hidden">
+                        Avion в pinterest
+                      </span>
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </footer>
+</body>
+
+</html>
+=======
 <!DOCTYPE html>
 <html lang="en">
 
@@ -408,3 +844,4 @@
 </body>
 
 </html>
+>>>>>>> bfb1feb589d67c4721dce074dfbdb871ff4697c6
